@@ -1,0 +1,22 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: food_development
+  pool: 5
+  username:
+  password:
+
+  adapter: postgresql
+  encoding: unicode
+  database: food_test
+  pool: 5
+  username:
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: food_production
+  pool: 5
+  username:
+  password:
